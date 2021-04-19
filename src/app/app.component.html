@@ -1,0 +1,17 @@
+<h3>Ejercicio3</h3>
+<!-- utilizar el componente creado -->
+
+<!--<app-dashboard></app-dashboard> -->
+<!--<app-dashboard></app-dashboard>
+<app-navbar></app-navbar> -->
+<div class="jumbotron text-center">
+    <button class="btn btn-success btn-lg" (click)="lanzarDados()">Lanzar dados</button>
+<br>
+<!-- PROPERTY BINDING-->
+<img class="img" [src]="dadoIzquierdo">
+<img class="img" [src]="dadoDerecho">
+
+<h1 *ngIf="numeroInferior === numeroSuperior"> 
+    <span class="badge bg-success"> GANASTE !!</span>
+</h1>
+</div>
